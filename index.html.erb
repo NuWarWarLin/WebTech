@@ -1,0 +1,42 @@
+<html>
+  <head>
+  <style>
+  .btn {
+    border: none;
+    padding: 5px;
+    color: black;
+    border-radius: 5px;
+  }
+  .btn:hover {
+    transform: scale(1.4);
+    cursor: pointer;
+  }
+  #show {
+    background : 	#2E8B57;
+  }
+  #false {
+    background: #DC143C;
+  }
+  </style>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  </head>
+  <body>
+    <h1> Goya! !! !! !! !! !! !! !! !! !! !! !! !! </h1>
+    <form action="show.cgi" method="POST">   
+    <table>
+         <tr>
+         <th>Please press Pretty to show respective Database data.<br></th>
+         <td><input type="submit" name="show" value="Pretty" id="show" class="btn"><td>
+         </tr>
+    </table>
+    </form>
+    <form action="false.cgi" method="POST">
+    <table>
+         <tr>
+         <th>If you press the Poor button below, you will be taken to the goya information page in poor quality.<br></th>
+         <td><input type="submit" name="false" value="Poor" id="false" class="btn"><td>
+         </tr>
+    </table>
+    </form>
+  </body>
+</html>
